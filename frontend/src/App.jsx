@@ -15,6 +15,25 @@ function App() {
   const [error, setError] = useState(null);
   const [geoJsonFeatures, setGeoJsonFeatures] = useState([]);
 
+  // Helper to flatten GeometryCollections
+  const flattenFeatures = (features) => {
+    const flat = [];
+    features.forEach(f => {
+      if (f.geometry && f.geometry.type === 'GeometryCollection') {
+        f.geometry.geometries.forEach(g => {
+          flat.push({
+            type: 'Feature',
+            properties: f.properties,
+            geometry: g
+          });
+        });
+      } else {
+        flat.push(f);
+      }
+    });
+    return flat;
+  };
+
   // Reuse processFile logic
   const processFile = async (file) => {
     return new Promise((resolve, reject) => {
@@ -31,7 +50,7 @@ function App() {
               const kmlDom = parser.parseFromString(kmlText, 'text/xml');
               const geoJson = toGeoJSON.kml(kmlDom);
               geoJson.features.forEach(f => f.properties.source_file = file.name);
-              resolve(geoJson.features);
+              resolve(flattenFeatures(geoJson.features));
             } else {
               reject(new Error('No KML found in KMZ'));
             }
@@ -47,7 +66,7 @@ function App() {
             const kmlDom = parser.parseFromString(e.target.result, 'text/xml');
             const geoJson = toGeoJSON.kml(kmlDom);
             geoJson.features.forEach(f => f.properties.source_file = file.name);
-            resolve(geoJson.features);
+            resolve(flattenFeatures(geoJson.features));
           } catch (err) {
             reject(err);
           }
