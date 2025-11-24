@@ -17,10 +17,15 @@ function App() {
 
   // Helper to remove altitude (3D -> 2D)
   const to2D = (coords) => {
-    if (typeof coords[0] === 'number') {
+    // If it's a single coordinate pair/triplet (array of numbers)
+    if (Array.isArray(coords) && typeof coords[0] === 'number') {
       return coords.slice(0, 2);
     }
-    return coords.map(to2D);
+    // If it's an array of coordinates (LineString, Polygon ring)
+    if (Array.isArray(coords)) {
+      return coords.map(to2D);
+    }
+    return coords;
   };
 
   // Helper to flatten GeometryCollections and normalize to 2D
@@ -28,8 +33,12 @@ function App() {
     const flat = [];
 
     const processGeometry = (geometry, properties) => {
+      if (!geometry) return;
+
       if (geometry.type === 'GeometryCollection') {
-        geometry.geometries.forEach(g => processGeometry(g, properties));
+        if (geometry.geometries) {
+          geometry.geometries.forEach(g => processGeometry(g, properties));
+        }
       } else {
         // Force 2D coordinates
         const newGeometry = { ...geometry };
