@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Zone B</name>
+    <Placemark>
+      <name>Zone B Polygon</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -46.643308,-23.560520,0
+              -46.643308,-23.561520,0
+              -46.642308,-23.561520,0
+              -46.642308,-23.560520,0
+              -46.643308,-23.560520,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

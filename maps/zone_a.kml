@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Zone A</name>
+    <Placemark>
+      <name>Zone A Polygon</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -46.633308,-23.550000,0
+              -46.633308,-23.551520,0
+              -46.632308,-23.551520,0
+              -46.632308,-23.550000,0
+              -46.633308,-23.550000,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
