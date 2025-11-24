@@ -208,16 +208,50 @@ function App() {
       let coveringFeature = null;
 
       for (const feature of geoJsonFeatures) {
-        if (feature.geometry.type === 'Polygon' || feature.geometry.type === 'MultiPolygon') {
-          // Fix winding order (Turf requires specific winding)
-          const rewoundFeature = turf.rewind(feature, { reverse: false, mutate: false });
+        const type = feature.geometry.type;
 
-          if (turf.booleanPointInPolygon(point, rewoundFeature)) {
+        if (type === 'Polygon' || type === 'MultiPolygon') {
+          // 1. Try standard check with rewind
+          const rewound = turf.rewind(feature, { reverse: false, mutate: false });
+          if (turf.booleanPointInPolygon(point, rewound)) {
             isCovered = true;
             coveringFeature = feature;
             break;
           }
-        } else if (feature.geometry.type === 'Point') {
+
+          // 2. Try buffering (fixes self-intersections)
+          try {
+            const buffered = turf.buffer(rewound, 0, { units: 'meters' });
+            if (buffered) {
+              // buffered is usually a FeatureCollection or Feature
+              const bufferedFeatures = buffered.type === 'FeatureCollection' ? buffered.features : [buffered];
+              for (const bf of bufferedFeatures) {
+                if (turf.booleanPointInPolygon(point, bf)) {
+                  isCovered = true;
+                  coveringFeature = feature; // Use original for display
+                  break;
+                }
+              }
+            }
+            if (isCovered) break;
+          } catch (e) {
+            console.warn("Buffer check failed", e);
+          }
+
+        } else if (type === 'LineString' || type === 'MultiLineString') {
+          // Try treating closed lines as polygons
+          try {
+            const poly = turf.lineToPolygon(feature);
+            if (turf.booleanPointInPolygon(point, poly)) {
+              isCovered = true;
+              coveringFeature = feature;
+              break;
+            }
+          } catch (e) {
+            // Ignore if line can't be polygon
+          }
+
+        } else if (type === 'Point') {
           // Check distance (4km radius)
           const distance = turf.distance(point, feature, { units: 'kilometers' });
           if (distance <= 4) {
@@ -267,6 +301,12 @@ function App() {
               <p style={{ fontSize: '1.2rem', fontWeight: 'bold' }}>{files.length} Files Loaded</p>
               <div style={{ fontSize: '0.9rem', opacity: 0.7, display: 'flex', flexDirection: 'column', gap: '0.2rem' }}>
                 {files.map(f => <span key={f.name}>{f.name}</span>)}
+              </div>
+              <div style={{ fontSize: '0.75rem', opacity: 0.5, marginTop: '0.5rem', textAlign: 'center' }}>
+                {geoJsonFeatures.length} features loaded<br />
+                ({geoJsonFeatures.filter(f => f.geometry.type.includes('Polygon')).length} Polygons,
+                {geoJsonFeatures.filter(f => f.geometry.type.includes('Point')).length} Points,
+                {geoJsonFeatures.filter(f => f.geometry.type.includes('Line')).length} Lines)
               </div>
               <p style={{ fontSize: '0.9rem', opacity: 0.7, marginTop: '1rem' }}>Click or drag to replace</p>
             </div>
