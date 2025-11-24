@@ -209,7 +209,10 @@ function App() {
 
       for (const feature of geoJsonFeatures) {
         if (feature.geometry.type === 'Polygon' || feature.geometry.type === 'MultiPolygon') {
-          if (turf.booleanPointInPolygon(point, feature)) {
+          // Fix winding order (Turf requires specific winding)
+          const rewoundFeature = turf.rewind(feature, { reverse: false, mutate: false });
+
+          if (turf.booleanPointInPolygon(point, rewoundFeature)) {
             isCovered = true;
             coveringFeature = feature;
             break;
