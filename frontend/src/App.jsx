@@ -217,58 +217,73 @@ function App() {
       let coveringFeature = null;
 
       for (const feature of geoJsonFeatures) {
-        const type = feature.geometry.type;
+        try {
+          const type = feature.geometry.type;
 
-        if (type === 'Polygon' || type === 'MultiPolygon') {
-          // 1. Try standard check with rewind
-          const rewound = turf.rewind(feature, { reverse: false, mutate: false });
-          if (turf.booleanPointInPolygon(point, rewound)) {
-            isCovered = true;
-            coveringFeature = feature;
-            break;
-          }
+          if (type === 'Polygon' || type === 'MultiPolygon') {
+            // 1. Try standard check with rewind
+            try {
+              const rewound = turf.rewind(feature, { reverse: false, mutate: false });
+              if (turf.booleanPointInPolygon(point, rewound)) {
+                isCovered = true;
+                coveringFeature = feature;
+                break;
+              }
+            } catch (rewindErr) {
+              console.warn("Rewind check failed for feature:", rewindErr);
+            }
 
-          // 2. Try buffering (fixes self-intersections)
-          try {
-            const buffered = turf.buffer(rewound, 0, { units: 'meters' });
-            if (buffered) {
-              // buffered is usually a FeatureCollection or Feature
-              const bufferedFeatures = buffered.type === 'FeatureCollection' ? buffered.features : [buffered];
-              for (const bf of bufferedFeatures) {
-                if (turf.booleanPointInPolygon(point, bf)) {
-                  isCovered = true;
-                  coveringFeature = feature; // Use original for display
-                  break;
+            // 2. Try buffering (fixes self-intersections)
+            if (!isCovered) {
+              try {
+                const buffered = turf.buffer(feature, 0, { units: 'meters' });
+                if (buffered) {
+                  const bufferedFeatures = buffered.type === 'FeatureCollection' ? buffered.features : [buffered];
+                  for (const bf of bufferedFeatures) {
+                    if (turf.booleanPointInPolygon(point, bf)) {
+                      isCovered = true;
+                      coveringFeature = feature;
+                      break;
+                    }
+                  }
                 }
+              } catch (bufferErr) {
+                console.warn("Buffer check failed for feature:", bufferErr);
               }
             }
-            if (isCovered) break;
-          } catch (e) {
-            console.warn("Buffer check failed", e);
-          }
 
-        } else if (type === 'LineString' || type === 'MultiLineString') {
-          // Try treating closed lines as polygons
-          try {
-            const poly = turf.lineToPolygon(feature);
-            if (turf.booleanPointInPolygon(point, poly)) {
-              isCovered = true;
-              coveringFeature = feature;
-              break;
+          } else if (type === 'LineString' || type === 'MultiLineString') {
+            // Try treating closed lines as polygons
+            try {
+              const poly = turf.lineToPolygon(feature);
+              if (turf.booleanPointInPolygon(point, poly)) {
+                isCovered = true;
+                coveringFeature = feature;
+                break;
+              }
+            } catch (lineErr) {
+              console.warn("Line to polygon conversion failed:", lineErr);
             }
-          } catch (e) {
-            // Ignore if line can't be polygon
-          }
 
-        } else if (type === 'Point') {
-          // Check distance (4km radius)
-          const distance = turf.distance(point, feature, { units: 'kilometers' });
-          if (distance <= 4) {
-            isCovered = true;
-            coveringFeature = feature;
-            break;
+          } else if (type === 'Point') {
+            // Check distance (4km radius)
+            try {
+              const distance = turf.distance(point, feature, { units: 'kilometers' });
+              if (distance <= 4) {
+                isCovered = true;
+                coveringFeature = feature;
+                break;
+              }
+            } catch (distErr) {
+              console.warn("Distance check failed:", distErr);
+            }
           }
+        } catch (featureErr) {
+          console.warn("Error processing feature:", featureErr);
+          // Continue to next feature
         }
+
+        if (isCovered) break;
       }
 
       setResult({
