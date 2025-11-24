@@ -2,7 +2,7 @@ import React, { useState, useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { Upload, MapPin, CheckCircle, XCircle, Loader2 } from 'lucide-react';
 import MapResult from './components/MapResult';
-import { kml as parseKml } from '@tmcw/togeojson';
+import * as toGeoJSON from 'togeojson';
 import JSZip from 'jszip';
 import * as turf from '@turf/turf';
 
@@ -77,7 +77,7 @@ function App() {
               const kmlText = await zip.file(kmlFile).async('string');
               const parser = new DOMParser();
               const kmlDom = parser.parseFromString(kmlText, 'text/xml');
-              const geoJson = parseKml(kmlDom);
+              const geoJson = toGeoJSON.kml(kmlDom);
               geoJson.features.forEach(f => f.properties.source_file = file.name);
               resolve(normalizeFeatures(geoJson.features));
             } else {
@@ -93,7 +93,7 @@ function App() {
           try {
             const parser = new DOMParser();
             const kmlDom = parser.parseFromString(e.target.result, 'text/xml');
-            const geoJson = parseKml(kmlDom);
+            const geoJson = toGeoJSON.kml(kmlDom);
             geoJson.features.forEach(f => f.properties.source_file = file.name);
             resolve(normalizeFeatures(geoJson.features));
           } catch (err) {
