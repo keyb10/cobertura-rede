@@ -15,22 +15,42 @@ function App() {
   const [error, setError] = useState(null);
   const [geoJsonFeatures, setGeoJsonFeatures] = useState([]);
 
-  // Helper to flatten GeometryCollections
-  const flattenFeatures = (features) => {
+  // Helper to remove altitude (3D -> 2D)
+  const to2D = (coords) => {
+    if (typeof coords[0] === 'number') {
+      return coords.slice(0, 2);
+    }
+    return coords.map(to2D);
+  };
+
+  // Helper to flatten GeometryCollections and normalize to 2D
+  const normalizeFeatures = (features) => {
     const flat = [];
-    features.forEach(f => {
-      if (f.geometry && f.geometry.type === 'GeometryCollection') {
-        f.geometry.geometries.forEach(g => {
-          flat.push({
-            type: 'Feature',
-            properties: f.properties,
-            geometry: g
-          });
-        });
+
+    const processGeometry = (geometry, properties) => {
+      if (geometry.type === 'GeometryCollection') {
+        geometry.geometries.forEach(g => processGeometry(g, properties));
       } else {
-        flat.push(f);
+        // Force 2D coordinates
+        const newGeometry = { ...geometry };
+        if (newGeometry.coordinates) {
+          newGeometry.coordinates = to2D(newGeometry.coordinates);
+        }
+
+        flat.push({
+          type: 'Feature',
+          properties: properties,
+          geometry: newGeometry
+        });
+      }
+    };
+
+    features.forEach(f => {
+      if (f.geometry) {
+        processGeometry(f.geometry, f.properties);
       }
     });
+
     return flat;
   };
 
@@ -50,7 +70,7 @@ function App() {
               const kmlDom = parser.parseFromString(kmlText, 'text/xml');
               const geoJson = toGeoJSON.kml(kmlDom);
               geoJson.features.forEach(f => f.properties.source_file = file.name);
-              resolve(flattenFeatures(geoJson.features));
+              resolve(normalizeFeatures(geoJson.features));
             } else {
               reject(new Error('No KML found in KMZ'));
             }
@@ -66,7 +86,7 @@ function App() {
             const kmlDom = parser.parseFromString(e.target.result, 'text/xml');
             const geoJson = toGeoJSON.kml(kmlDom);
             geoJson.features.forEach(f => f.properties.source_file = file.name);
-            resolve(flattenFeatures(geoJson.features));
+            resolve(normalizeFeatures(geoJson.features));
           } catch (err) {
             reject(err);
           }
