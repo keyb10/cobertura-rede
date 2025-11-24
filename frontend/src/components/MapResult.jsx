@@ -32,6 +32,17 @@ function MapResult({ coordinates, coverageStatus, allFeatures }) {
         }
     };
 
+    const pointToLayer = (feature, latlng) => {
+        return L.circleMarker(latlng, {
+            radius: 4,
+            fillColor: "#3b82f6",
+            color: "#2563eb",
+            weight: 1,
+            opacity: 1,
+            fillOpacity: 0.8
+        });
+    };
+
     const style = (feature) => {
         return {
             fillColor: '#3b82f6',
@@ -61,6 +72,7 @@ function MapResult({ coordinates, coverageStatus, allFeatures }) {
                     <GeoJSON
                         data={geoJsonData}
                         style={style}
+                        pointToLayer={pointToLayer}
                         onEachFeature={onEachFeature}
                     />
                 )}
@@ -69,6 +81,10 @@ function MapResult({ coordinates, coverageStatus, allFeatures }) {
                         {coverageStatus.covered ? "Covered Location" : "Not Covered"}
                     </Popup>
                 </Marker>
+                {/* Visual aid for coverage radius if covered by a Point */}
+                {coverageStatus.covered && coverageStatus.type === 'Point' && (
+                    <L.Circle center={position} radius={4000} pathOptions={{ color: 'green', fillOpacity: 0.1 }} />
+                )}
             </MapContainer>
         </div>
     );

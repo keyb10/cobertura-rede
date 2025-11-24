@@ -175,6 +175,14 @@ function App() {
             coveringFeature = feature;
             break;
           }
+        } else if (feature.geometry.type === 'Point') {
+          // Check distance (4km radius)
+          const distance = turf.distance(point, feature, { units: 'kilometers' });
+          if (distance <= 4) {
+            isCovered = true;
+            coveringFeature = feature;
+            break;
+          }
         }
       }
 
@@ -185,7 +193,8 @@ function App() {
         coverage: {
           covered: isCovered,
           source_file: coveringFeature?.properties?.source_file,
-          details: coveringFeature?.properties
+          details: coveringFeature?.properties,
+          type: coveringFeature?.geometry?.type
         }
       });
 
