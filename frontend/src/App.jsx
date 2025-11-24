@@ -67,7 +67,8 @@ function App() {
     const loadDefaultMaps = async () => {
       try {
         setUploading(true);
-        const manifestRes = await fetch('/maps.json');
+        // Use relative path './maps.json' to respect the base URL (e.g. /cobertura-rede/)
+        const manifestRes = await fetch('./maps.json');
         if (!manifestRes.ok) return; // No manifest, skip
 
         const mapUrls = await manifestRes.json();
@@ -75,7 +76,10 @@ function App() {
         const allFeatures = [];
 
         for (const url of mapUrls) {
-          const res = await fetch(url);
+          // Prepend './' to map URLs if they don't have it, to ensure relative fetching
+          const safeUrl = url.startsWith('http') || url.startsWith('/') ? url : `./${url}`;
+
+          const res = await fetch(safeUrl);
           const blob = await res.blob();
           const filename = url.split('/').pop();
           const file = new File([blob], filename, { type: 'application/vnd.google-earth.kml+xml' });
