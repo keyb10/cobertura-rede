@@ -1,5 +1,4 @@
 import React, { useState, useCallback } from 'react';
-import { useDropzone } from 'react-dropzone';
 import { Upload, MapPin, CheckCircle, XCircle, Loader2 } from 'lucide-react';
 import MapResult from './components/MapResult';
 import * as toGeoJSON from 'togeojson';
@@ -196,15 +195,6 @@ function App() {
     }
   }, []);
 
-  const { getRootProps, getInputProps, isDragActive } = useDropzone({
-    onDrop,
-    accept: {
-      'application/vnd.google-earth.kml+xml': ['.kml'],
-      'application/vnd.google-earth.kmz': ['.kmz']
-    },
-    multiple: true
-  });
-
   const handleCheck = async (e) => {
     e.preventDefault();
     if (!address.trim()) return;
@@ -323,101 +313,189 @@ function App() {
   };
 
   return (
-    <div className="container">
-      <div className="glass-card">
-        <h1>Network Coverage</h1>
+    <div style={{ width: '100vw', height: '100vh', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
 
-        {/* Upload Section */}
-        <div {...getRootProps()} className={`dropzone ${isDragActive ? 'active' : ''}`}>
-          <input {...getInputProps()} />
-          {uploading ? (
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
-              <Loader2 className="animate-spin" size={48} />
-              <p>Processing coverage maps...</p>
-            </div>
-          ) : files.length > 0 ? (
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
-              <CheckCircle size={48} color="var(--success)" />
-              <p style={{ fontSize: '1.2rem', fontWeight: 'bold' }}>{files.length} Files Loaded</p>
-              <div style={{ fontSize: '0.9rem', opacity: 0.7, display: 'flex', flexDirection: 'column', gap: '0.2rem' }}>
-                {files.map(f => <span key={f.name}>{f.name}</span>)}
-              </div>
-              <div style={{ fontSize: '0.75rem', opacity: 0.5, marginTop: '0.5rem', textAlign: 'center' }}>
-                {geoJsonFeatures.length} features loaded<br />
-                ({geoJsonFeatures.filter(f => f.geometry.type.includes('Polygon')).length} Polygons,
-                {geoJsonFeatures.filter(f => f.geometry.type.includes('Point')).length} Points,
-                {geoJsonFeatures.filter(f => f.geometry.type.includes('Line')).length} Lines)
-              </div>
-              <p style={{ fontSize: '0.9rem', opacity: 0.7, marginTop: '1rem' }}>Click or drag to replace</p>
-            </div>
-          ) : (
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
-              <Upload size={48} color="var(--accent-primary)" />
-              <p style={{ fontSize: '1.2rem' }}>Drag & drop KML/KMZ files here</p>
-              <p style={{ color: 'var(--text-secondary)' }}>or click to select files</p>
-            </div>
-          )}
+      {/* Top Search Bar */}
+      <div style={{
+        background: 'rgba(15, 23, 42, 0.95)',
+        backdropFilter: 'blur(10px)',
+        padding: '1.25rem 2rem',
+        borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
+        zIndex: 1000,
+        flexShrink: 0,
+        flexDirection: 'column'
+      }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '2rem', marginBottom: '0.75rem' }}>
+          <h1 style={{ margin: 0, fontSize: '1.5rem', color: 'var(--accent-primary)', whiteSpace: 'nowrap' }}>
+            Network Coverage
+          </h1>
+
+          <form onSubmit={handleCheck} style={{ flex: 1, position: 'relative', maxWidth: '600px' }}>
+            <input
+              type="text"
+              placeholder="Enter address to check coverage..."
+              value={address}
+              onChange={(e) => setAddress(e.target.value)}
+              disabled={files.length === 0 || uploading}
+              style={{
+                width: '100%',
+                padding: '0.75rem 1rem',
+                fontSize: '1rem',
+                border: '1px solid rgba(255, 255, 255, 0.2)',
+                borderRadius: '0.5rem',
+                background: 'rgba(255, 255, 255, 0.05)',
+                color: 'white'
+              }}
+            />
+            <button
+              type="submit"
+              style={{
+                position: 'absolute',
+                right: '0',
+                top: '0',
+                bottom: '0',
+                padding: '0 1.5rem',
+                background: 'var(--accent-primary)',
+                border: 'none',
+                borderRadius: '0 0.5rem 0.5rem 0',
+                cursor: 'pointer',
+                fontWeight: '600',
+                fontSize: '0.9rem'
+              }}
+              disabled={files.length === 0 || uploading || checking || !address}
+            >
+              {checking ? <Loader2 className="animate-spin" size={16} /> : 'OK'}
+            </button>
+          </form>
         </div>
 
-        {/* Search Section */}
-        <form onSubmit={handleCheck} style={{ position: 'relative' }}>
-          <input
-            type="text"
-            placeholder="Enter address to check coverage..."
-            value={address}
-            onChange={(e) => setAddress(e.target.value)}
-            disabled={files.length === 0 || uploading}
-          />
-          <button
-            type="submit"
-            style={{
-              position: 'absolute',
-              right: '8px',
-              top: '8px',
-              bottom: '8px',
-              padding: '0 1.5rem'
-            }}
-            disabled={files.length === 0 || uploading || checking || !address}
-          >
-            {checking ? <Loader2 className="animate-spin" /> : <MapPin />}
-          </button>
-        </form>
+        {/* Status Indicator - Below search */}
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: '0.5rem',
+          fontSize: '0.75rem',
+          opacity: 0.6,
+          paddingLeft: '0.5rem'
+        }}>
+          <CheckCircle size={14} color="var(--success)" />
+          <span>{files.length} maps loaded</span>
+        </div>
+      </div>
 
-        {/* Error Message */}
-        {error && (
-          <div className="result-card result-error">
-            <XCircle size={24} />
-            <span>{error}</span>
-          </div>
-        )}
-
-        {/* Result Section */}
-        {result && (
-          <div className={`result-card ${result.coverage.covered ? 'result-success' : 'result-error'}`} style={{ flexDirection: 'column', alignItems: 'stretch' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-              {result.coverage.covered ? <CheckCircle size={32} /> : <XCircle size={32} />}
-              <div>
-                <h3 style={{ margin: 0 }}>{result.coverage.covered ? 'Covered!' : 'Not Covered'}</h3>
-                <p style={{ margin: '0.5rem 0 0', opacity: 0.8 }}>
-                  {result.coverage.covered
-                    ? `This location is within our network.`
-                    : `Sorry, this location is outside the coverage area.`}
-                  <br />
-                  {result.coverage.source_file && <small>Source: {result.coverage.source_file}</small>}
-                  {result.coverage.details?.Name && <><br /><small>Region: {result.coverage.details.Name}</small></>}
-                </p>
-              </div>
-            </div>
-
-            {/* Map Visualization */}
+      {/* Fullscreen Map */}
+      <div style={{
+        flex: 1,
+        position: 'relative',
+        display: 'flex',
+        alignItems: 'flex-start',
+        justifyContent: 'center',
+        padding: '3rem 2rem 2rem 2rem',
+        background: 'linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%)'
+      }}>
+        <div style={{
+          width: '100%',
+          height: '100%',
+          maxWidth: '1000px',
+          maxHeight: '550px',
+          borderRadius: '1rem',
+          overflow: 'hidden',
+          boxShadow: '0 20px 60px rgba(0, 0, 0, 0.5)',
+          position: 'relative'
+        }}>
+          {result ? (
             <MapResult
               coordinates={result.coordinates}
               coverageStatus={result.coverage}
               allFeatures={geoJsonFeatures}
             />
+          ) : (
+            <div style={{
+              height: '100%',
+              width: '100%',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              background: 'linear-gradient(135deg, #2563eb 0%, #1e40af 100%)',
+              fontSize: '1.2rem',
+              color: 'rgba(255, 255, 255, 0.6)'
+            }}>
+              {uploading ? (
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
+                  <Loader2 className="animate-spin" size={48} />
+                  <p>Loading coverage maps...</p>
+                </div>
+              ) : (
+                'Enter an address above to check coverage'
+              )}
+            </div>
+          )}
+        </div>
+
+        {/* Floating Result Card */}
+        {result && (
+          <div style={{
+            position: 'absolute',
+            bottom: '2rem',
+            left: '50%',
+            transform: 'translateX(-50%)',
+            zIndex: 1000,
+            minWidth: '400px',
+            maxWidth: '500px'
+          }}>
+            <div className={`result-card ${result.coverage.covered ? 'result-success' : 'result-error'}`}
+              style={{
+                background: result.coverage.covered
+                  ? 'rgba(34, 197, 94, 0.95)'
+                  : 'rgba(239, 68, 68, 0.95)',
+                backdropFilter: 'blur(10px)',
+                boxShadow: '0 10px 40px rgba(0, 0, 0, 0.3)',
+                color: 'white'
+              }}
+            >
+              <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                {result.coverage.covered ? <CheckCircle size={32} color="white" /> : <XCircle size={32} color="white" />}
+                <div style={{ flex: 1 }}>
+                  <h3 style={{ margin: 0, fontSize: '1.25rem', color: 'white' }}>
+                    {result.coverage.covered ? 'Covered!' : 'Not Covered'}
+                  </h3>
+                  <p style={{ margin: '0.5rem 0 0', opacity: 0.9, fontSize: '0.9rem', color: 'white' }}>
+                    {result.coverage.covered
+                      ? `This location is within our network.`
+                      : `Sorry, this location is outside the coverage area.`}
+                  </p>
+                  {result.coverage.source_file && (
+                    <p style={{ margin: '0.5rem 0 0', opacity: 0.8, fontSize: '0.8rem', color: 'white' }}>
+                      Source: {result.coverage.source_file}
+                    </p>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Error Message */}
+        {error && (
+          <div style={{
+            position: 'absolute',
+            top: '2rem',
+            left: '50%',
+            transform: 'translateX(-50%)',
+            zIndex: 1000,
+            minWidth: '400px'
+          }}>
+            <div className="result-card result-error" style={{
+              background: 'rgba(239, 68, 68, 0.95)',
+              backdropFilter: 'blur(10px)'
+            }}>
+              <XCircle size={24} />
+              <span>{error}</span>
+            </div>
           </div>
         )}
       </div>
+
     </div>
   );
 }

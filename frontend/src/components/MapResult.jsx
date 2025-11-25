@@ -61,7 +61,7 @@ function MapResult({ coordinates, coverageStatus, allFeatures }) {
     };
 
     return (
-        <div style={{ height: '400px', width: '100%', marginTop: '1rem', borderRadius: '1rem', overflow: 'hidden' }}>
+        <div style={{ height: '100%', width: '100%', borderRadius: '1rem', overflow: 'hidden' }}>
             <MapContainer center={position} zoom={15} style={{ height: '100%', width: '100%' }}>
                 <ChangeView center={position} zoom={15} />
                 <TileLayer
