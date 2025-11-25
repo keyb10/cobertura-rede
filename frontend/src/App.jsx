@@ -69,21 +69,37 @@ function App() {
       const reader = new FileReader();
 
       if (file.name.endsWith('.kmz')) {
+        console.log(`[KMZ] Processing file: ${file.name}`);
         reader.onload = async (e) => {
           try {
+            console.log('[KMZ] Loading ZIP...');
             const zip = await JSZip.loadAsync(e.target.result);
+            console.log('[KMZ] ZIP loaded, files:', Object.keys(zip.files));
+
             const kmlFile = Object.keys(zip.files).find(name => name.endsWith('.kml'));
             if (kmlFile) {
+              console.log(`[KMZ] Found KML: ${kmlFile}`);
               const kmlText = await zip.file(kmlFile).async('string');
+              console.log(`[KMZ] KML extracted, size: ${kmlText.length} chars`);
+
               const parser = new DOMParser();
               const kmlDom = parser.parseFromString(kmlText, 'text/xml');
+              console.log('[KMZ] KML parsed to DOM');
+
               const geoJson = toGeoJSON.kml(kmlDom);
+              console.log(`[KMZ] Converted to GeoJSON, features: ${geoJson.features.length}`);
+
               geoJson.features.forEach(f => f.properties.source_file = file.name);
-              resolve(normalizeFeatures(geoJson.features));
+              const normalized = normalizeFeatures(geoJson.features);
+              console.log(`[KMZ] Normalized features: ${normalized.length}`);
+
+              resolve(normalized);
             } else {
+              console.error('[KMZ] ERROR: No KML found in KMZ');
               reject(new Error('No KML found in KMZ'));
             }
           } catch (err) {
+            console.error('[KMZ] ERROR:', err.message, err.stack);
             reject(err);
           }
         };

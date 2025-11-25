@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapContainer, TileLayer, GeoJSON, Marker, Popup, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, GeoJSON, Marker, Popup, Circle, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 
@@ -83,7 +83,7 @@ function MapResult({ coordinates, coverageStatus, allFeatures }) {
                 </Marker>
                 {/* Visual aid for coverage radius if covered by a Point */}
                 {coverageStatus.covered && coverageStatus.type === 'Point' && (
-                    <L.Circle center={position} radius={4000} pathOptions={{ color: 'green', fillOpacity: 0.1 }} />
+                    <Circle center={position} radius={4000} pathOptions={{ color: 'green', fillOpacity: 0.1 }} />
                 )}
             </MapContainer>
         </div>
