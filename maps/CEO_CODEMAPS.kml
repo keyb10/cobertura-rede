@@ -1,0 +1,332 @@
+<?xml version='1.0'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+    <Document>
+        <Folder>
+            <name>REDE SAO PAULO - PARELHEIROS</name>
+            <Placemark>
+                <name>CEO - </name>
+                <id>13841</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.727307737,-23.801377732</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CEO/CTO jetcom(cto como caixa de imenda)</name>
+                <id>14251</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736671329,-23.811317018</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14354</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.738581061,-23.791929767</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CEO expliter 1/16 quadrante maron</name>
+                <id>14364</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.738996804,-23.794746006</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CEO </name>
+                <id>13843</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.729284525,-23.801692468</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CEO</name>
+                <id>13844</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.731593907,-23.800255596</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>FIRST - 244 FO</name>
+                <id>13846</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737485379,-23.809738538</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CEO </name>
+                <id>13869</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736408472,-23.808995609</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CEO - </name>
+                <id>13870</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.735550165,-23.807704828</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CEO </name>
+                <id>13872</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736911386,-23.807408511</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CEO </name>
+                <id>13873</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.735335588,-23.804249596</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CEO </name>
+                <id>13874</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.732272506,-23.799581942</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CEO  </name>
+                <id>13878</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.734244128,-23.798136051</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CEO 1/16</name>
+                <id>13842</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.729783416,-23.800671567</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CEO AL EXPLITER 1/16 F1 CABO TRONCO</name>
+                <id>13876</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736558676,-23.795755911</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CEO  EXPLITER 1/16 - BACKBONE 12FO AL F2</name>
+                <id>14331</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.735770106,-23.794127543</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14335</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.738923043,-23.792739059</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>F5 ALIMENTAÇAO EXPLITER 1/16</name>
+                <id>14337</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.738868058,-23.797769561</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CEO DERIVAÇAO</name>
+                <id>14332</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736458093,-23.794258231</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CEO ALIMENTAÇAO F1 CABO DE 12FO  EXPLITER 1/16</name>
+                <id>14322</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.733184457,-23.793574115</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CEL DERIVAÇAO Fibra link vermelha </name>
+                <id>14330</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736338735,-23.792479521</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14412</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.743036211,-23.794231234</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CEO DERIVAÇAO</name>
+                <id>14413</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.739938259,-23.795530125</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CAIXA EMENDA   </name>
+                <id>1827</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-47.366097857,-22.573751386</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CEO derivaçao</name>
+                <id>43135</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.739221493,-23.809750594</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CEO derivaçao</name>
+                <id>43136</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737853526,-23.812246815</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CEO derivaçao</name>
+                <id>43137</id>
+                <type>C</type>
+                <extra>
+                    <model>CAIXA EMENDA</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.738851105,-23.811852105</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>

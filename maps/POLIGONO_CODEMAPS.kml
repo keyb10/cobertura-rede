@@ -1,0 +1,464 @@
+<?xml version='1.0'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+    <Document>
+        <Folder>
+            <name>REDE SAO PAULO - PARELHEIROS</name>
+            <Placemark>
+                <name>PON 02/04 -10 ETAPA </name>
+                <Style>
+                    <PolyStyle>
+                        <color>80149Eff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.735560894,-23.806193175 -46.73582375,-23.80693428 -46.736510396,-23.807356364 -46.736655235,-23.808544082 -46.736043692,-23.808912174 -46.735002995,-23.808794385 -46.734294891,-23.808313411 -46.734053493,-23.80741526 -46.73407495,-23.806649618 -46.734525561,-23.806418943 -46.735357046,-23.806207899 -46.735560894,-23.806193175 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>PON 02/05 - 5 ETAPA </name>
+                <Style>
+                    <PolyStyle>
+                        <color>8062B1ff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.729912162,-23.800504688 -46.729928255,-23.801196743 -46.7302984,-23.801589397 -46.731274724,-23.801142753 -46.730555892,-23.799601575 -46.729874611,-23.799689923 -46.729692221,-23.800097306 -46.729863882,-23.800239644 -46.729912162,-23.800504688 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>PON 02/05 - 3 ETAPA </name>
+                <Style>
+                    <PolyStyle>
+                        <color>8062B1ff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.729815602,-23.800543953 -46.729955077,-23.800794272 -46.729370356,-23.800808996 -46.727492809,-23.80342013 -46.72716558,-23.80323853 -46.728721261,-23.801201651 -46.728217006,-23.801005324 -46.72762692,-23.800293635 -46.728233099,-23.800288727 -46.729815602,-23.800543953 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>PON 02/05 - 2 ETAPA</name>
+                <Style>
+                    <PolyStyle>
+                        <color>8062B1ff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.72734797,-23.801240917 -46.727170944,-23.802350161 -46.727471352,-23.802517037 -46.728351116,-23.801191835 -46.727616191,-23.800529229 -46.727326512,-23.800107122 -46.726779342,-23.80005804 -46.726720333,-23.801000416 -46.727449894,-23.801201651 -46.72734797,-23.801240917 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>PON 02/06 - ETAPA </name>
+                <Style>
+                    <PolyStyle>
+                        <color>809E00ff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.732884049,-23.797162156 -46.732696295,-23.797829687 -46.732889414,-23.798246893 -46.733484864,-23.798246893 -46.734241247,-23.79857084 -46.735845208,-23.79930708 -46.736365557,-23.7984285 -46.732884049,-23.797162156 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>8 ETAPAS</name>
+                <Style>
+                    <PolyStyle>
+                        <color>80DC00ff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.730668545,-23.799523043 -46.731504651,-23.801335157 -46.732706963,-23.800661713 -46.732572913,-23.800548862 -46.73126936,-23.799297263 -46.730668545,-23.799523043 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>FIBRA 5 CABO DE 24 </name>
+                <Style>
+                    <PolyStyle>
+                        <color>80DD00ff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.73541069,-23.794403643 -46.735475063,-23.793255064 -46.734670401,-23.792371534 -46.734439731,-23.791640163 -46.73255682,-23.791983761 -46.731521487,-23.791826688 -46.730673909,-23.793009639 -46.734686494,-23.794482178 -46.735389233,-23.794717783 -46.73541069,-23.794403643 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>f8 c24 e f4 c12</name>
+                <Style>
+                    <PolyStyle>
+                        <color>80DC00ff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.737588644,-23.794629431 -46.737749577,-23.792634139 -46.737226546,-23.792502837 -46.736982465,-23.792056162 -46.734482646,-23.791635255 -46.734702587,-23.792322449 -46.735560894,-23.793240338 -46.735464334,-23.794482178 -46.736108065,-23.794212214 -46.736478209,-23.794781592 -46.73679471,-23.794202397 -46.737223864,-23.794305474 -46.737588644,-23.794629431 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>f6 c 24 f1 c12</name>
+                <Style>
+                    <PolyStyle>
+                        <color>80CCCCff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.735485792,-23.794548442 -46.735335588,-23.795196353 -46.734606028,-23.796266382 -46.734369993,-23.796963368 -46.736011505,-23.797473835 -46.737052202,-23.798563477 -46.737931967,-23.798563477 -46.738766134,-23.797855456 -46.736985147,-23.795730142 -46.736086607,-23.794293203 -46.735485792,-23.794548442 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>quadrante preto</name>
+                <Style>
+                    <PolyStyle>
+                        <color>804D4Dff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.740458608,-23.794970566 -46.7401582,-23.79554485 -46.741907001,-23.797331493 -46.742802858,-23.798480037 -46.743537784,-23.797984299 -46.742202044,-23.79637682 -46.741805077,-23.79584917 -46.741799712,-23.795844262 -46.742180586,-23.795068735 -46.741815805,-23.794725145 -46.740819098,-23.795287954 -46.740458608,-23.794970566 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>quadrante cinza</name>
+                <Style>
+                    <PolyStyle>
+                        <color>80B3B3ff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.747405529,-23.793660013 -46.746665239,-23.792889381 -46.745324135,-23.794003605 -46.743253469,-23.793483308 -46.742953062,-23.794435548 -46.742218137,-23.795073643 -46.741858721,-23.795839353 -46.743580699,-23.797959758 -46.74531877,-23.796659051 -46.747405529,-23.793660013 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>quadrante laranja</name>
+                <Style>
+                    <PolyStyle>
+                        <color>809E00ff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.744133234,-23.793674738 -46.744240522,-23.793277152 -46.742995977,-23.792634139 -46.744052768,-23.792143288 -46.746300459,-23.79095542 -46.746976376,-23.789512293 -46.746048331,-23.788368579 -46.74140811,-23.790724717 -46.741220355,-23.791672069 -46.741960645,-23.792089294 -46.741515398,-23.792727401 -46.742427349,-23.79285993 -46.743248105,-23.793429315 -46.744133234,-23.793674738 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>quadrante aqua marin</name>
+                <Style>
+                    <PolyStyle>
+                        <color>80D8FFff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.747453809,-23.79360602 -46.748467684,-23.792423074 -46.746541858,-23.790592186 -46.746305823,-23.791033957 -46.743124723,-23.792634139 -46.744294167,-23.793228067 -46.744181514,-23.793655104 -46.745313406,-23.793944703 -46.746670604,-23.792805937 -46.747453809,-23.79360602 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>QUADRANTE AZUL</name>
+                <Style>
+                    <PolyStyle>
+                        <color>809CE0ff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.738790274,-23.797838277 -46.738637388,-23.797973255 -46.739476919,-23.799072711 -46.740927994,-23.799767228 -46.741729975,-23.79944083 -46.741708517,-23.799055532 -46.741247177,-23.798608879 -46.740109921,-23.797796556 -46.739495695,-23.797141295 -46.739147007,-23.796324055 -46.738468409,-23.795482268 -46.737513542,-23.794633112 -46.737092435,-23.794299339 -46.736816168,-23.794240438 -46.736652553,-23.794530035 -46.736491621,-23.794856446 -46.738790274,-23.797838277 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>quadrante marron</name>
+                <Style>
+                    <PolyStyle>
+                        <color>805100ff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.739321351,-23.795274888 -46.738865376,-23.795888437 -46.738500595,-23.795387781 -46.737636924,-23.794676061 -46.737695932,-23.79371646 -46.737771034,-23.792872202 -46.738873422,-23.793026819 -46.740630269,-23.793949612 -46.741467118,-23.79427357 -46.741805077,-23.794683424 -46.740822047,-23.795240529 -46.740447879,-23.794901849 -46.739932895,-23.795856533 -46.739321351,-23.795274888 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>quadrante rosa</name>
+                <Style>
+                    <PolyStyle>
+                        <color>8028FFff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.740126014,-23.795584117 -46.739938259,-23.795942429 -46.739310622,-23.79532888 -46.738892198,-23.795903162 -46.739176512,-23.79627129 -46.739541292,-23.797086077 -46.740168929,-23.797763425 -46.741295457,-23.798592927 -46.741743386,-23.799027309 -46.741767526,-23.799422424 -46.742746532,-23.798973318 -46.742789447,-23.798561023 -46.741847992,-23.797360943 -46.740126014,-23.795584117 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>PON 02/04 - 9 ETPA </name>
+                <Style>
+                    <PolyStyle>
+                        <color>80149Eff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.736848354,-23.808710951 -46.734954715,-23.80947658 -46.734793782,-23.810021353 -46.735104918,-23.810080247 -46.735314781,-23.810229601 -46.735309415,-23.810239415 -46.735427431,-23.810322847 -46.735416714,-23.810303227 -46.736393037,-23.811162094 -46.736516416,-23.811019766 -46.736570057,-23.810960869 -46.736725627,-23.810931423 -46.737229228,-23.809741605 -46.737111211,-23.808941622 -46.736848354,-23.808710951 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>PON 02/06 - ETAPA</name>
+                <Style>
+                    <PolyStyle>
+                        <color>809E00ff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.73412304,-23.801915051 -46.734076023,-23.801401561 -46.733930111,-23.800234736 -46.732481718,-23.799601575 -46.731821895,-23.799380704 -46.731458539,-23.79816439 -46.732472258,-23.797917046 -46.733077168,-23.798109461 -46.733184457,-23.798413775 -46.733946204,-23.79839905 -46.734203696,-23.798021111 -46.734412909,-23.798080011 -46.734096408,-23.798698455 -46.734047208,-23.798914479 -46.734006075,-23.799030855 -46.734014893,-23.799033547 -46.733806729,-23.799542676 -46.734343393,-23.799551898 -46.735230771,-23.800178311 -46.735354184,-23.800764394 -46.735292483,-23.801525221 -46.735025099,-23.801812885 -46.73412304,-23.801915051 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>PON 02/05 - 1ª ETAPA</name>
+                <Style>
+                    <PolyStyle>
+                        <color>8062B1ff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.727358699,-23.801255641 -46.727353334,-23.801559948 -46.726988554,-23.8021931 -46.727246046,-23.802556302 -46.727128029,-23.802806617 -46.72665596,-23.802664281 -46.726457477,-23.803606638 -46.724467278,-23.803582097 -46.724982262,-23.803145276 -46.726709604,-23.801049498 -46.727358699,-23.801255641 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>PON 02/07 -  lilas</name>
+                <Style>
+                    <PolyStyle>
+                        <color>8064FFff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.743210554,-23.79346122 -46.742405891,-23.792921287 -46.741445661,-23.792754398 -46.740517616,-23.792454979 -46.738994122,-23.792523698 -46.738723218,-23.792181943 -46.738253832,-23.792197895 -46.737769693,-23.792626163 -46.737760305,-23.792831707 -46.738876104,-23.792997368 -46.740635633,-23.793900527 -46.741504669,-23.794244119 -46.742212772,-23.795029467 -46.742915511,-23.794403643 -46.743210554,-23.79346122 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>PON 02/01</name>
+                <Style>
+                    <PolyStyle>
+                        <color>8000ffff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.739905567,-23.808847118 -46.739957865,-23.809792092 -46.740325567,-23.810877442 -46.739845372,-23.813057218 -46.738997802,-23.812419218 -46.738488072,-23.811534617 -46.7389146,-23.810995364 -46.738529954,-23.808177446 -46.737419791,-23.8077784 -46.737445173,-23.806599156 -46.737073438,-23.806534225 -46.736869007,-23.805701827 -46.736874375,-23.805225752 -46.737709484,-23.805183944 -46.739314467,-23.805310536 -46.739905567,-23.808847118 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>PON 02/02</name>
+                <Style>
+                    <PolyStyle>
+                        <color>80BC00ff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.73833782,-23.808329859 -46.737179106,-23.807907778 -46.736866508,-23.807894587 -46.737414418,-23.809397914 -46.737855253,-23.809966857 -46.737984003,-23.811581532 -46.738673992,-23.811244531 -46.738728392,-23.809868942 -46.738529916,-23.808877558 -46.73833782,-23.808329859 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>PON 02/08</name>
+                <Style>
+                    <PolyStyle>
+                        <color>800500ff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.737760305,-23.792601007 -46.737245321,-23.79247584 -46.736998558,-23.792024256 -46.736108065,-23.791857366 -46.736145616,-23.791766558 -46.739396453,-23.79091247 -46.741349101,-23.79074067 -46.741158664,-23.79171011 -46.741665602,-23.791972717 -46.741890907,-23.792080704 -46.741472483,-23.792711448 -46.740525663,-23.792402212 -46.739015579,-23.79248443 -46.738752723,-23.792155559 -46.738237739,-23.792170285 -46.737760305,-23.792601007 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+            <Placemark>
+                <name>PON 02/03 - 7 ETAPA</name>
+                <Style>
+                    <PolyStyle>
+                        <color>8028FFff</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>-46.730260849,-23.801672836 -46.729504466,-23.801024957 -46.727793217,-23.803439762 -46.728018522,-23.803704799 -46.729069948,-23.803312152 -46.72927916,-23.802021315 -46.730260849,-23.801672836 </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+                <folderId>undefined</folderId>
+                <folderName>undefined</folderName>
+                <extra/>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
