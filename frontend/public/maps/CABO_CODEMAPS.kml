@@ -1,0 +1,1718 @@
+<?xml version='1.0'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+    <Document>
+        <Folder>
+            <name>REDE SAO PAULO - PARELHEIROS</name>
+            <Placemark>
+                <name>Ramal</name>
+                <id>7379</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA  12 FO </model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.737485379,-23.809738538 -46.737400595,-23.809331565 -46.738112061,-23.809530978 -46.738645585,-23.809644253 -46.739221493,-23.809750594 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff3B4EF4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>BACKBONE 12 FO</name>
+                <id>2621</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA  12 FO </model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.733184457,-23.793574115 -46.733487546,-23.793531165 -46.733840014,-23.793869716 -46.733946204,-23.793936114 -46.734133959,-23.793921388 -46.73442632,-23.793864941 -46.73451215,-23.793977836 -46.734619439,-23.794061279 -46.735139787,-23.794127543 -46.735770106,-23.794127543 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff3B4EF4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO TRONCO DE 24 FO</name>
+                <id>2600</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 24 FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.732272506,-23.799581942 -46.732261106,-23.799613538 -46.731971428,-23.799502489 -46.731736735,-23.799408006 -46.731575802,-23.799311681 -46.731542274,-23.799286526 -46.731422916,-23.799146641 -46.731339768,-23.799061974 -46.731055453,-23.798704897 -46.730955541,-23.798571147 -46.730873063,-23.79835825 -46.730848923,-23.798141058 -46.730810702,-23.797434261 -46.730776504,-23.797111539 -46.730744988,-23.797005396 -46.730471402,-23.796438481 -46.730246767,-23.796024338 -46.730179712,-23.795872178 -46.73015222,-23.795761739 -46.730136126,-23.795576448 -46.730148867,-23.795489937 -46.730217934,-23.795320597 -46.73042044,-23.794945104 -46.730430499,-23.794910745 -46.730446592,-23.794789875 -46.730447933,-23.794615013 -46.730403677,-23.794369591 -46.730302423,-23.793997776 -46.730265543,-23.793906356 -46.730206534,-23.793826594 -46.730166301,-23.793785485 -46.730255485,-23.79367842 -46.730622947,-23.793239111 -46.730794609,-23.793140941 -46.730934083,-23.793062406 -46.730976999,-23.793018229 -46.731132567,-23.792836615 -46.733063757,-23.793558162 -46.733184457,-23.793574115 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DCFC</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>cabo tronco</name>
+                <id>2598</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 36FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.737485379,-23.809738538 -46.737384796,-23.809255726 -46.737197042,-23.808730582 -46.736993194,-23.808229976 -46.737003922,-23.807847158 -46.736349463,-23.806310967 -46.735984683,-23.805550227 -46.735099554,-23.8040091 -46.734434366,-23.803169817 -46.734112501,-23.802237273 -46.73394084,-23.800597944 -46.733694077,-23.800008958 -46.733388428,-23.799777695 -46.732272506,-23.799581942 -46.732136679,-23.799403264 -46.732346068,-23.799065175 -46.732961616,-23.798895898 -46.733887196,-23.798669005 -46.734244128,-23.798136051 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ffB16200</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>FIBRA TRONCAL 6FO</name>
+                <id>2475</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 36FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.732272506,-23.799581942 -46.731607318,-23.799253089 -46.731462479,-23.799459236 -46.731261313,-23.799588077 -46.731336415,-23.800181973 -46.731407593,-23.800371498 -46.731593907,-23.800255596 -46.73048079,-23.800720649 -46.729783416,-23.800671567 -46.729413271,-23.800617577 -46.729257065,-23.800798441 -46.727621555,-23.800342717 -46.728002429,-23.801491234 -46.727946103,-23.801572832 -46.727307737,-23.801377732 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ffB16200</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>FIBRA 6 FO TRONCAL </name>
+                <id>2476</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 36FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.729783416,-23.800671567 -46.730486155,-23.800710832 -46.729810238,-23.80101514 -46.729284525,-23.801692468 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ffB16200</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>pic 4</name>
+                <id>2651</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738996804,-23.794746006 -46.738988757,-23.795222123 -46.738607883,-23.795058918 -46.738404036,-23.794961977 -46.737881005,-23.794635567 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO 6 FO</name>
+                <id>2568</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.735493839,-23.809389466 -46.735233665,-23.809512163 -46.735153198,-23.80958578 -46.735062003,-23.809806634 -46.735059321,-23.809840989 -46.735013723,-23.810002948 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>cabo 06 FO</name>
+                <id>2567</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.736408472,-23.808995609 -46.735493839,-23.809389466 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>Cabo </name>
+                <id>2587</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.727261921,-23.801468151 -46.726726865,-23.801273523 -46.725253165,-23.803158774 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO RAMAL PIC 3 - CABO 6FO </name>
+                <id>2604</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.733184457,-23.793574115 -46.733511686,-23.793493738 -46.734023988,-23.793361823 -46.734705269,-23.793197389 -46.733531803,-23.79353546 -46.733653843,-23.79366124 -46.733884513,-23.793919548 -46.734203696,-23.793862487 -46.734874249,-23.793700508 -46.734360605,-23.793858192 -46.734534949,-23.794072937 -46.734651625,-23.794123248 -46.734917164,-23.794138587 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>cabo tronco 12 fo  pic 6</name>
+                <id>2646</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.736458093,-23.794258231 -46.736440659,-23.794301793 -46.736880541,-23.794476043 -46.737239957,-23.794242892 -46.73738173,-23.794302762 -46.737746894,-23.79398029 -46.738996804,-23.794746006 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO D 6 FO</name>
+                <id>2618</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.735779494,-23.793660626 -46.735770106,-23.794127543 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>pic 1 cabo de 6 FO</name>
+                <id>2656</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.743036211,-23.794231234 -46.742995977,-23.794541079 -46.743033528,-23.7949902 -46.74306035,-23.795241756 -46.74320519,-23.795487176 -46.743272245,-23.795619703 -46.743250787,-23.795681058 -46.743162274,-23.795693329 -46.743049622,-23.795618476 -46.74322933,-23.795784134 -46.74360618,-23.796468238 -46.743689328,-23.796624079 -46.743732244,-23.796664573 -46.743784547,-23.796708748 -46.743787229,-23.796762126 -46.743301749,-23.796656596 -46.743194461,-23.797027177 -46.743226647,-23.79664678 -46.742679477,-23.796580517 -46.742373705,-23.796420995 -46.742180586,-23.796190302 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>PIC 2 CABO DE 6 FO</name>
+                <id>2657</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.743036211,-23.794231234 -46.743140817,-23.794214668 -46.743288338,-23.794139814 -46.74354583,-23.794058825 -46.743811369,-23.794077232 -46.744430959,-23.79431161 -46.744669676,-23.794293203 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>6 PON  - </name>
+                <id>2459</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.729284525,-23.801692468 -46.729059219,-23.80201518 -46.7284289,-23.802871649 -46.72803998,-23.803367368 -46.728206277,-23.803150184 -46.728758812,-23.803175952 -46.728879511,-23.802991898 -46.72891651,-23.80273743 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>3 PON  </name>
+                <id>2460</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.729284525,-23.801692468 -46.729531288,-23.801396751 -46.729284525,-23.801692468 -46.729150544,-23.801884373 -46.729491055,-23.801779588 -46.730011404,-23.801561175 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>3 FUSAO </name>
+                <id>2479</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.734244128,-23.798136051 -46.734095918,-23.798432781 -46.734420955,-23.79852053 -46.735035181,-23.798773306 -46.735601127,-23.799011357 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>FIB RA TRONCAL </name>
+                <id>2474</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.736911386,-23.807408511 -46.735550165,-23.807704828 -46.735952497,-23.807611577 -46.736042295,-23.808074908 -46.736108065,-23.808833648 -46.73622066,-23.809076484 -46.736408472,-23.808995609 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>6 PON </name>
+                <id>2461</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.729783416,-23.800671567 -46.72999531,-23.800680156 -46.730486155,-23.800710832 -46.730065048,-23.800957469 -46.73048079,-23.800720649 -46.730849594,-23.800592422 -46.730959564,-23.800776479 -46.731088975,-23.801106321 -46.730470061,-23.801372211 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>3 PON </name>
+                <id>2462</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.730849594,-23.800592422 -46.730676591,-23.800130436 -46.730488837,-23.799730416 -46.730169654,-23.799806493 -46.729879975,-23.800056813 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>3 FUSAO </name>
+                <id>2463</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.731593907,-23.800255596 -46.731392741,-23.800351306 -46.731494665,-23.800533524 -46.731674373,-23.800912682 -46.731494665,-23.800533524 -46.731395423,-23.800348852 -46.731145978,-23.800466036 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>4 FUSAO</name>
+                <id>2464</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.731593907,-23.800255596 -46.731648892,-23.800237804 -46.731902361,-23.800123074 -46.732025743,-23.800274615 -46.732303351,-23.800582606 -46.732025743,-23.800274615 -46.731604636,-23.799779498 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>2 FUSAO</name>
+                <id>2465</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.731593907,-23.800255596 -46.731407593,-23.800371498 -46.731336415,-23.800181973 -46.731344461,-23.799990552 -46.731261313,-23.799588077 -46.73094213,-23.799673971 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>2 FUSAO </name>
+                <id>2467</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.736408472,-23.808995609 -46.73622066,-23.809076484 -46.736427248,-23.809514616 -46.736360192,-23.810007856 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>4 FUSAO </name>
+                <id>2468</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.736359386,-23.809016746 -46.736526489,-23.808935487 -46.736837626,-23.808818924 -46.7369771,-23.80914898 -46.737038791,-23.809831173 -46.736971736,-23.810139141 -46.736665964,-23.81083728 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>3 FUSAO </name>
+                <id>2469</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.735550165,-23.807704828 -46.73630923,-23.807522007 -46.735936403,-23.807606669 -46.736006141,-23.807832434 -46.736030281,-23.807904826 -46.736081243,-23.80862629 -46.736030281,-23.807904826 -46.735952497,-23.807611577 -46.736030281,-23.807904826 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>4 FUSAO </name>
+                <id>2470</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.735550165,-23.807704828 -46.735330224,-23.807734276 -46.735571623,-23.808499911 -46.735464334,-23.808493776 -46.734868884,-23.808519543 -46.734614074,-23.808228749 -46.734273434,-23.807277837 -46.734246612,-23.806737961 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>2 FUSAO </name>
+                <id>2471</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.735550165,-23.807704828 -46.735265851,-23.807596853 -46.735037863,-23.806793176 -46.734965444,-23.806561274 -46.735467017,-23.806459434 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>2 FUSAO</name>
+                <id>2480</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.734244128,-23.798136051 -46.73437716,-23.797869707 -46.73407495,-23.797776923 -46.733079851,-23.797357262 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>2 FUSAO </name>
+                <id>2481</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.734244128,-23.798136051 -46.734102002,-23.7984206 -46.733672619,-23.798181858 -46.733361483,-23.798080011 -46.732996702,-23.798129094 -46.732953787,-23.797926626 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>3 FUSAO </name>
+                <id>2478</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.734244128,-23.798136051 -46.734368121,-23.797887804 -46.734788418,-23.798066513 -46.735416055,-23.798343832 -46.735976636,-23.798581883 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>2 FUSAO </name>
+                <id>2483</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.732733846,-23.798988043 -46.732320786,-23.799174557 -46.732202768,-23.799464144 -46.73315227,-23.799655565 -46.733645797,-23.799910793 -46.734466553,-23.80047033 -46.734691858,-23.800897344 -46.73463285,-23.801226192 -46.734375358,-23.801358713 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>5 FUSAO </name>
+                <id>2482</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.734244128,-23.798136051 -46.733887196,-23.798669005 -46.733619804,-23.798806167 -46.732717752,-23.798929144 -46.732256413,-23.799007676 -46.732076705,-23.798827297 -46.731784344,-23.798472674 -46.732291281,-23.798309474 -46.732996702,-23.798129094 -46.733058393,-23.79852053 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>pic 1 </name>
+                <id>2654</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738996804,-23.794746006 -46.73938036,-23.795065053 -46.739938259,-23.795530125 -46.740056276,-23.795316609 -46.740217209,-23.794936208 -46.74004823,-23.794782819 -46.739468873,-23.794554578 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>pic 2</name>
+                <id>2648</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738996804,-23.794746006 -46.738983393,-23.794790182 -46.738632023,-23.794588937 -46.73813045,-23.794291976 -46.737687886,-23.793990107 -46.737905145,-23.794031828 -46.738023162,-23.793945931 -46.737913191,-23.793830582 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>pic 3</name>
+                <id>2652</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738996804,-23.794746006 -46.738881469,-23.794263753 -46.738744676,-23.794164357 -46.738945842,-23.794170492 -46.739155054,-23.79395452 -46.73944205,-23.793995015 -46.740142107,-23.794158221 -46.74038887,-23.794219577 -46.740587354,-23.794420823 -46.740828753,-23.794166811 -46.740721464,-23.794479724 -46.740936041,-23.794815951 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>cabo tronco al f6 cabo 6fo</name>
+                <id>2655</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.74269557,-23.7939717 -46.743036211,-23.794231234 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>PIC 3 FIBRA DE 6 FO</name>
+                <id>2643</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738923043,-23.792739059 -46.739256978,-23.792734764 -46.739568114,-23.792695496 -46.74048543,-23.792960555 -46.740903854,-23.793225613 -46.741067469,-23.793241565 -46.741719246,-23.793417043 -46.741971374,-23.79352503 -46.74269557,-23.7939717 -46.742491722,-23.794158221 -46.742540002,-23.794364376 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO RAMAL PIC 2 - CABO 6FO </name>
+                <id>2603</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.733184457,-23.793574115 -46.733190616,-23.79355263 -46.732862592,-23.793456311 -46.731997579,-23.793128057 -46.731170118,-23.792818822 -46.731116474,-23.792783235 -46.731392741,-23.79239485 -46.73163414,-23.792111996 -46.732334197,-23.792223051 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO RAMAL PIC 1 - CABO 6FO </name>
+                <id>2602</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.733184457,-23.793574115 -46.733291745,-23.793199843 -46.734010577,-23.792999822 -46.733286381,-23.793131125 -46.733256876,-23.792762988 -46.73402667,-23.792562966 -46.733216643,-23.792686906 -46.733106673,-23.792188692 -46.733490024,-23.792090787 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>PIC 2 FIBRA DE 6 FO </name>
+                <id>2642</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738923043,-23.792739059 -46.739519835,-23.792618187 -46.740104556,-23.792769123 -46.740313768,-23.792852568 -46.740431786,-23.792793666 -46.740673184,-23.792705313 -46.741021872,-23.792720038 -46.741134524,-23.792753171 -46.741451025,-23.792857476 -46.74182117,-23.792960555 -46.742357612,-23.793151986 -46.742684841,-23.793348325 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO DERIVAÇAO 6 FO PIC 4</name>
+                <id>2638</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738581061,-23.791929767 -46.73827529,-23.791427869 -46.73808217,-23.791527267 -46.737921238,-23.791636482 -46.737907827,-23.791712564 -46.73802048,-23.791921177 -46.73808217,-23.792029165 -46.73804462,-23.792057389 -46.737805903,-23.792242686 -46.737465262,-23.792278272 -46.737285554,-23.792225506 -46.737180948,-23.792102793 -46.737113893,-23.791982534 -46.736901999,-23.791899089 -46.736789346,-23.791850003 -46.736789346,-23.791850003 -46.736789346,-23.791850003 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO 6 FO PIC 5</name>
+                <id>2632</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738868058,-23.797769561 -46.739079952,-23.797113072 -46.738999486,-23.796942508 -46.738548875,-23.796249203 -46.737897098,-23.795462634 -46.737175584,-23.794644156 -46.737014651,-23.794520219 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO TRONCO 6 FO PIC 6</name>
+                <id>2623</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.735770106,-23.794127543 -46.735759377,-23.794242892 -46.7357862,-23.794350877 -46.735893488,-23.794539852 -46.735925674,-23.794684651 -46.736558676,-23.795755911 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO DE 6 FO PIC 2</name>
+                <id>2625</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.736558676,-23.795755911 -46.736344099,-23.795797632 -46.735957861,-23.795685966 -46.735340953,-23.795538714 -46.735485792,-23.795635655 -46.735249758,-23.796146127 -46.735306084,-23.796100724 -46.735635996,-23.796563338 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO DE 6 FO PIC 5</name>
+                <id>2622</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.735770106,-23.794127543 -46.735727231,-23.79415212 -46.735796928,-23.794257617 -46.735826433,-23.794304247 -46.736164391,-23.794260071 -46.736458093,-23.794258231 -46.736458093,-23.794258231 -46.736458093,-23.794258231 -46.736458093,-23.794258231 -46.736458093,-23.794258231 -46.73642729,-23.794258424 -46.736458093,-23.794258231 -46.736458093,-23.794258231 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO DE 6 FO PIC 1</name>
+                <id>2610</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.735770106,-23.794127543 -46.735759377,-23.793642833 -46.735759377,-23.79353362 -46.735764742,-23.793037863 -46.735646725,-23.79282189 -46.735573464,-23.792809707 -46.73525244,-23.792485657 -46.734930575,-23.792188692 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO DE 6 FO PI 1</name>
+                <id>2633</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.736458093,-23.794258231 -46.736668646,-23.794341061 -46.736853719,-23.794446592 -46.737113893,-23.794245346 -46.737245321,-23.794210987 -46.737427711,-23.794333698 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO DE 6 FO PIC 3</name>
+                <id>2626</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.736558676,-23.795755911 -46.736338735,-23.795828309 -46.735520661,-23.795631974 -46.734886318,-23.796837592 -46.734941304,-23.796787895 -46.735504568,-23.796991591 -46.735893488,-23.79718547 -46.736110747,-23.797227191 -46.73615098,-23.797247438 -46.736365557,-23.797570774 -46.736446023,-23.797564025 -46.736488938,-23.797637036 -46.736853719,-23.797779377 -46.737060249,-23.797985526 -46.737076342,-23.79807817 -46.737046838,-23.798157317 -46.737170219,-23.798213762 -46.737269461,-23.798228487 -46.737329811,-23.798321131 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO DE 6 FO PI 1</name>
+                <id>2611</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.736338735,-23.792479521 -46.736577451,-23.792581373 -46.73674643,-23.792628004 -46.736888587,-23.792640275 -46.737543046,-23.792657455 -46.737135351,-23.792576464 -46.736995876,-23.792308951 -46.736937251,-23.792183377 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO DE 6 FO PIC 2</name>
+                <id>2612</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.736338735,-23.792479521 -46.736338735,-23.792479521 -46.736263633,-23.792431663 -46.73612684,-23.792367853 -46.735426784,-23.792090521 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>2627</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738586426,-23.797872635 -46.738746017,-23.797959144 -46.738885492,-23.797854842 -46.738904268,-23.797792262 -46.738868058,-23.797769561 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO DE 6 FO 1 PIC</name>
+                <id>2628</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738868058,-23.797769561 -46.738948524,-23.797835823 -46.738784909,-23.797973255 -46.739037037,-23.798199037 -46.739393771,-23.798697228 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO DE 6 FO 2 PIC</name>
+                <id>2629</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738868058,-23.797769561 -46.739203334,-23.798035836 -46.739409864,-23.798159771 -46.739836335,-23.79851194 -46.740045547,-23.798765944 -46.740415692,-23.799248181 -46.740608811,-23.799449419 -46.740726829,-23.799485004 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO DE 6 FO PIC 3</name>
+                <id>2630</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738868058,-23.797769561 -46.738959253,-23.797556049 -46.739058495,-23.797278729 -46.739120185,-23.797234554 -46.739313304,-23.797578136 -46.739552021,-23.797759744 -46.740493476,-23.798385552 -46.74131155,-23.798954912 -46.741510034,-23.799158605 -46.74151808,-23.799372114 -46.741440296,-23.799487458 -46.741172075,-23.799249408 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO DE 6FO PIC 4</name>
+                <id>2631</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738868058,-23.797769561 -46.73866421,-23.797511874 -46.738168001,-23.796775624 -46.737575233,-23.795906843 -46.736907363,-23.794863808 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO DE 6 FO PIC 3</name>
+                <id>2609</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.735779494,-23.793660626 -46.736105382,-23.793629335 -46.73633337,-23.793613382 -46.736419201,-23.793466128 -46.736483574,-23.793367959 -46.7366606,-23.793417043 -46.736751795,-23.793302921 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO DE 6 FO DERIVAÇAO PIC 2</name>
+                <id>2620</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.736338735,-23.792479521 -46.736204624,-23.792848886 -46.735949814,-23.793609701 -46.735732555,-23.793636698 -46.735770106,-23.794127543 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>CABO DE 6 FO PIC 2 </name>
+                <id>2607</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.737532318,-23.793607247 -46.73704952,-23.793948385 -46.736655235,-23.794104228 -46.736458093,-23.794258231 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>DERIVAÇAO PIC 5</name>
+                <id>2639</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738581061,-23.791929767 -46.738581061,-23.792170285 -46.738522053,-23.792279499 -46.738339663,-23.792641502 -46.738479137,-23.792710221 -46.738923043,-23.792739059 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>fibra de 6FO PIC 1</name>
+                <id>2635</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738581061,-23.791929767 -46.738978028,-23.791959218 -46.739830971,-23.791983761 -46.739659309,-23.792032846 -46.739643216,-23.792263547 -46.739777327,-23.792327357 -46.740131378,-23.792273364 -46.740587354,-23.792248821 -46.741043329,-23.792435345 -46.741257906,-23.792499155 -46.741483212,-23.792170285 -46.7410326,-23.791988669 -46.740812659,-23.791973944 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>FIBRA DE 6 FO PIC 2</name>
+                <id>2636</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738581061,-23.791929767 -46.738468409,-23.791659798 -46.738806367,-23.791625438 -46.739428639,-23.791507633 -46.740002632,-23.791473273 -46.740694642,-23.791434005 -46.741123796,-23.791404553 -46.741123796,-23.791404553 -46.741123796,-23.791404553 -46.741123796,-23.791404553 -46.741123796,-23.791404553 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>FIBRA DE 6 FO PIC 3</name>
+                <id>2637</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738581061,-23.791929767 -46.738473773,-23.791924859 -46.738334298,-23.791487999 -46.738342736,-23.791410765 -46.739026308,-23.791105131 -46.739348173,-23.791036411 -46.739809513,-23.791026594 -46.740469337,-23.791002051 -46.740828753,-23.790898971 -46.740973592,-23.790874429 -46.740973592,-23.790874429 -46.740973592,-23.790874429 -46.740973592,-23.790874429 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>PIC 1 FIBRA DE 6 FO</name>
+                <id>2641</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738923043,-23.792739059 -46.739876568,-23.793207206 -46.74082607,-23.793648969 -46.741695106,-23.794061279 -46.742172539,-23.794603662 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>PIC 4 FIBRA DE 6 FO</name>
+                <id>2644</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738923043,-23.792739059 -46.738916337,-23.792686906 -46.738208234,-23.792655001 -46.738417447,-23.792586281 -46.738544852,-23.79228993 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>pic 7 derivaçao alimentaçao </name>
+                <id>2645</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.735770106,-23.794127543 -46.736397743,-23.792882019 -46.736338735,-23.792479521 -46.736724973,-23.79271513 -46.737835407,-23.792700404 -46.738923043,-23.792739059 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>PIC 3 CABO DE 6 FO</name>
+                <id>2658</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.743036211,-23.794231234 -46.743376851,-23.794325108 -46.743639708,-23.794403643 -46.743913293,-23.79474846 -46.744020581,-23.794928845 -46.74403131,-23.795110456 -46.744111776,-23.795657743 -46.744149327,-23.795998876 -46.744562387,-23.796354732 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>PIC 4 CABO DE 6 FO</name>
+                <id>2659</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.743036211,-23.794231234 -46.743865013,-23.794541079 -46.744084954,-23.794869944 -46.744567752,-23.794919028 -46.7450881,-23.794830677 -46.745238304,-23.794700603 -46.745635271,-23.794276024 -46.745989323,-23.7939717 -46.74610734,-23.793939795 -46.74610734,-23.793939795 -46.746177077,-23.79378027 -46.746692061,-23.793394955 -46.746295094,-23.793741002 -46.746203899,-23.793947158 -46.746590137,-23.794040418 -46.746836901,-23.793846534 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>Ramal</name>
+                <id>7364</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.737087078,-23.811660562 -46.737535408,-23.811091558 -46.737631968,-23.810914877 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>Ramal</name>
+                <id>7365</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.737087078,-23.811660562 -46.737087078,-23.811660562 -46.736548354,-23.811415471 -46.736336904,-23.811739622 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>Ramal</name>
+                <id>7368</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.739115204,-23.806066269 -46.738783832,-23.805847655 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>Ramal</name>
+                <id>7373</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.739013345,-23.811268617 -46.73891849,-23.811246915 -46.739219193,-23.810851613 -46.739240998,-23.810478653 -46.738975404,-23.810122734 -46.738799922,-23.809866645 -46.738757334,-23.809667979 -46.738652896,-23.809436935 -46.738467929,-23.808929094 -46.738458443,-23.808807559 -46.737718574,-23.808282354 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>Ramal</name>
+                <id>7374</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738121114,-23.810686759 -46.73796727,-23.809861409 -46.737930135,-23.809468152 -46.738112061,-23.809530978 -46.73794605,-23.809133155 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>Ramal</name>
+                <id>7375</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738112061,-23.809530978 -46.738351557,-23.809581826 -46.738412885,-23.809958508 -46.73846063,-23.810264373 -46.738497764,-23.810434298 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>Ramal</name>
+                <id>7380</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.740203432,-23.813696162 -46.740323316,-23.813623348 -46.740373705,-23.813234803 -46.740380903,-23.813096507 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>Ramal</name>
+                <id>7360</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.740203432,-23.813696162 -46.739543608,-23.814044609 -46.738824776,-23.814074055 -46.737269095,-23.814157486 -46.736888221,-23.814108409 -46.736164025,-23.813769778 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>Ramal</name>
+                <id>7361</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738824776,-23.814074055 -46.738539865,-23.813391954 -46.738424579,-23.813311595 -46.737376027,-23.813256348 -46.736870964,-23.813231236 -46.735910249,-23.813045405 -46.736336904,-23.811739622 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>Ramal</name>
+                <id>7362</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.737208918,-23.814149732 -46.737376027,-23.813256348 -46.737521412,-23.812031432 -46.737087078,-23.811660562 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>Ramal</name>
+                <id>7363</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738539865,-23.813391954 -46.739079312,-23.813394949 -46.739093904,-23.813001114 -46.738736383,-23.812553875 -46.738320492,-23.812333593 -46.737853526,-23.812246815 -46.737521412,-23.812031432 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>Ramal</name>
+                <id>7366</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.739079312,-23.813394949 -46.739474206,-23.813366027 -46.739671984,-23.813120246 -46.739691211,-23.81269209 -46.739659167,-23.812199415 -46.740073999,-23.810867869 -46.74003729,-23.810475039 -46.739913823,-23.810209726 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>Ramal</name>
+                <id>7367</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.739913823,-23.810209726 -46.739765885,-23.80962294 -46.739385443,-23.808462351 -46.739307404,-23.807828487 -46.7392001,-23.807158909 -46.739115204,-23.806066269 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>Ramal</name>
+                <id>7369</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.737676692,-23.806663893 -46.737699758,-23.807473092 -46.737653627,-23.80757864 -46.738130311,-23.807831953 -46.73819726,-23.806751499 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>Ramal</name>
+                <id>7370</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.737653627,-23.80757864 -46.737269202,-23.807423835 -46.736911386,-23.807408511 -46.737023171,-23.807670112 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>Ramal</name>
+                <id>7371</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738130311,-23.807831953 -46.738743012,-23.808074011 -46.738733527,-23.807652977 -46.738667128,-23.807383861 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>Ramal</name>
+                <id>7372</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.738743012,-23.808074011 -46.738700325,-23.80839087 -46.738890036,-23.808916074 -46.739136659,-23.809619238 -46.739150887,-23.809740772 -46.739819026,-23.809833722 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>Ramal</name>
+                <id>7376</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.73891849,-23.811246915 -46.73876301,-23.811220803 -46.7382166,-23.811366452 -46.737790959,-23.811498607 -46.737217638,-23.811772045 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>Ramal</name>
+                <id>7377</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.73891849,-23.811246915 -46.738761455,-23.811750667 -46.739121424,-23.812157966 -46.73938322,-23.811379305 -46.739566478,-23.81055272 -46.739566478,-23.810373027 -46.739298136,-23.809983692 -46.739150887,-23.809740772 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>3 PON </name>
+                <id>2454</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.727307737,-23.801377732 -46.727192402,-23.801605349 -46.726918817,-23.801988185 -46.726677418,-23.802353842 -46.726484299,-23.802287582 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>Ramal</name>
+                <id>7378</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.736548354,-23.811415471 -46.737053227,-23.810756365 -46.737275754,-23.810199317 -46.737485379,-23.809738538 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>8 PON </name>
+                <id>2455</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.727307737,-23.801377732 -46.727404296,-23.801409022 -46.727946103,-23.801572832 -46.72776103,-23.801804129 -46.727364063,-23.802324393 -46.728144586,-23.801323129 -46.728002429,-23.801491234 -46.727830768,-23.800959923 -46.727390885,-23.800842127 -46.727004647,-23.800720649 -46.726929545,-23.800901025 -46.727235317,-23.800249461 -46.727098525,-23.800211422 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>1 PON </name>
+                <id>2456</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.727098525,-23.802591886 -46.726484299,-23.802287582 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>5 PON  6 FO</name>
+                <id>2457</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.729783416,-23.800671567 -46.729413271,-23.800617577 -46.729292572,-23.800751325 -46.728833914,-23.80135994 -46.728402078,-23.801931741 -46.727924645,-23.802577162 -46.727412343,-23.803264298 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>3 PON </name>
+                <id>2458</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.729783416,-23.800671567 -46.729413271,-23.800617577 -46.729292572,-23.800751325 -46.728689075,-23.800626166 -46.727959514,-23.800434746 -46.728689075,-23.800626166 -46.728383303,-23.800951334 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+            <Placemark>
+                <name>5 FUSOES 4 CTO F1,2,3,4 - F5 AL -  PIC 1</name>
+                <id>2487</id>
+                <type>D</type>
+                <extra>
+                    <model>FIBRA 6FO</model>
+                    <tipo>D</tipo>
+                </extra>
+                <LineString>
+                    <coordinates>-46.736558676,-23.795755911 -46.736810803,-23.79613631 -46.737261415,-23.796759672 -46.737690568,-23.797221056 -46.737309694,-23.797540097 -46.737733483,-23.797275047 -46.738586426,-23.797872635 </coordinates>
+                </LineString>
+                <Style>
+                    <LineStyle>
+                        <color>ff00DDA4</color>
+                        <width>4</width>
+                    </LineStyle>
+                </Style>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>

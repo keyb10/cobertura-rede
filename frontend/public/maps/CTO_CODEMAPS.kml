@@ -1,0 +1,3487 @@
+<?xml version='1.0'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+    <Document>
+        <Folder>
+            <name>REDE SAO PAULO - PARELHEIROS</name>
+            <Placemark>
+                <name>CTO VERDE</name>
+                <id>13836</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.741695106,-23.794061279</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO Azul</name>
+                <id>13626</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.72891651,-23.80273743</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO</name>
+                <id>26408</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-47.381385993,-22.547310386</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13665</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.726918817,-23.801988185</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13666</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.727098525,-23.802591886</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13667</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.726484299,-23.802287582</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13624</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.728758812,-23.803175952</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13701</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737076342,-23.79807817</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13759</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737427711,-23.794333698</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13837</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740828753,-23.794166811</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13840</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.73944205,-23.793995015</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO Fibra Branca</name>
+                <id>13853</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736081243,-23.80862629</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13879</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.733645797,-23.799910793</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13880</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.734375358,-23.801358713</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO Fibra amarela</name>
+                <id>13857</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736030281,-23.807904826</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO Fibra Verde</name>
+                <id>13859</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.735037863,-23.806793176</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO Fibra Branca</name>
+                <id>13855</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.734614074,-23.808228749</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO Fibra Azul</name>
+                <id>13868</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.734246612,-23.806737961</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO Fibra Verde</name>
+                <id>13849</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736526489,-23.808935487</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14316</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.734010577,-23.792999822</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14312</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.733490024,-23.792090787</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>2</name>
+                <id>14314</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.731392741,-23.79239485</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>2</name>
+                <id>14315</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.732334197,-23.792223051</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13805</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.731170118,-23.792818822</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14339</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.738978028,-23.791959218</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14341</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740812659,-23.791973944</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14345</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.73808217,-23.791527267</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14346</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.739026308,-23.791105131</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14350</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.741043329,-23.792435345</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14375</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.744669676,-23.794293203</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14378</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.746836901,-23.793846534</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO</name>
+                <id>26426</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-47.387845634,-22.548077078</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13627</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.72803998,-23.803367368</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13628</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.7284289,-23.802871649</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13629</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.729059219,-23.80201518</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13630</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.729531288,-23.801396751</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13631</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.729491055,-23.801779588</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13632</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.730011404,-23.801561175</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13637</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.727924645,-23.802577162</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13638</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.728402078,-23.801931741</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13639</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.728833914,-23.80135994</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13640</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.729292572,-23.800751325</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13641</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.72999531,-23.800680156</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13643</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.730676591,-23.800130436</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13644</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.731674373,-23.800912682</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13645</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.731494665,-23.800533524</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13648</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.731648892,-23.800237804</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13649</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.731145978,-23.800466036</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13650</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.732303351,-23.800582606</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13651</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.732025743,-23.800274615</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13652</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.731604636,-23.799779498</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13653</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.731344461,-23.799990552</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13654</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.73094213,-23.799673971</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13656</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.728689075,-23.800626166</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13657</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.727959514,-23.800434746</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13658</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.728144586,-23.801323129</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13659</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.727830768,-23.800959923</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13660</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.72776103,-23.801804129</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13661</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.727364063,-23.802324393</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13664</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.727192402,-23.801605349</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13663</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.727404296,-23.801409022</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13636</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.727412343,-23.803264298</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13646</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.731088975,-23.801106321</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13633</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.730470061,-23.801372211</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13669</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.725253165,-23.803158774</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13670</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.725693047,-23.802643421</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13671</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.726250947,-23.801929287</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13672</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.726602316,-23.801463012</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13676</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.727390885,-23.800842127</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13677</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.732733846,-23.798988043</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13678</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.733058393,-23.79852053</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13679</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.732291281,-23.798309474</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13680</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.733672619,-23.798181858</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13681</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.733618975,-23.798802756</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13682</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.735601127,-23.799011357</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13683</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.735035181,-23.798773306</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13684</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.734420955,-23.79852053</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13686</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.735976636,-23.798581883</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13687</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.735416055,-23.798343832</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13688</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.734788418,-23.798066513</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13689</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.73407495,-23.797776923</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13691</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.733079851,-23.797357262</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13692</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.732953787,-23.797926626</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13695</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.734886318,-23.796837592</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13698</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.73615098,-23.797247438</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13699</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736446023,-23.797564025</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13694</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.732076705,-23.798827297</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO (branca)</name>
+                <id>13674</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.727098525,-23.800211422</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13704</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.735249758,-23.796146127</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13712</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.738586426,-23.797872635</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13713</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.739037037,-23.798199037</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13714</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.739393771,-23.798697228</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13715</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740726829,-23.799485004</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13717</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740045547,-23.798765944</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13696</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.735504568,-23.796991591</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13703</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737329811,-23.798321131</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13710</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737325788,-23.796784214</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13708</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736810803,-23.79613631</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13719</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.739409864,-23.798159771</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13721</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.73866421,-23.797511874</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13725</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737575233,-23.795906843</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13723</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.738168001,-23.796775624</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13727</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736907363,-23.794863808</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13729</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.735995412,-23.794799999</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13731</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736478209,-23.794262526</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13732</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737014651,-23.794520219</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13734</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737897098,-23.795462634</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13737</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.738999486,-23.796942508</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13739</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.739552021,-23.797759744</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13736</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.738548875,-23.796249203</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13745</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.742043793,-23.798824843</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13751</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740793884,-23.79721492</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13730</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.735727231,-23.79415212</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13728</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736352637,-23.795407222</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13711</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737309694,-23.797540097</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13752</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740244031,-23.79670568</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13746</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.74131155,-23.798224806</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13749</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.741035283,-23.79779901</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13748</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.741338372,-23.797726613</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13747</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.741920412,-23.79813891</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO fibra verde.</name>
+                <id>13707</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.735957861,-23.795685966</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13750</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.74110502,-23.798451814</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO fibra branca </name>
+                <id>13744</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.741172075,-23.799249408</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO  12 fibra amarela</name>
+                <id>13741</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740493476,-23.798385552</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO fibra branca</name>
+                <id>13705</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.735635996,-23.796563338</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13756</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.738988757,-23.795222123</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13757</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.738404036,-23.794961977</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13758</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737881005,-23.794635567</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13761</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.73704952,-23.793948385</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13762</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737532318,-23.793607247</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13769</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740616858,-23.796451673</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13772</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.742454171,-23.797759744</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13773</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.742228866,-23.797394074</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13777</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.741139889,-23.796459035</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13789</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.74004823,-23.794782819</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13787</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740925312,-23.795656516</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13779</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.74251318,-23.797036993</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13782</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.741477847,-23.795854078</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13765</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.738744676,-23.794164357</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13793</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.73938036,-23.795065053</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13791</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740056276,-23.795316609</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13760</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737687886,-23.793990107</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13763</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.73813045,-23.794291976</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13764</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.738632023,-23.794588937</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13794</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737913191,-23.793830582</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13790</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740360707,-23.795742413</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13753</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.739863157,-23.796214844</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13755</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.739509106,-23.795643018</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13784</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.741461754,-23.795338697</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13770</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740225255,-23.795993967</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13767</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.739066541,-23.795662651</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13768</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.741150618,-23.797022268</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13776</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.741911694,-23.797139455</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13775</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.741394699,-23.796207481</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13774</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.74172461,-23.796757218</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13766</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.741575748,-23.797513101</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13754</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.739503741,-23.796158398</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13771</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740753651,-23.796038143</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13788</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740466654,-23.795238075</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13785</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.741413474,-23.796688501</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13778</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.742888689,-23.797576909</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13781</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.742067933,-23.796413633</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13783</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.744562387,-23.796354732</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13795</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.739468873,-23.794554578</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13797</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.734874249,-23.793700508</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13799</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.733653843,-23.79366124</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13800</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.734705269,-23.793197389</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13801</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.734023988,-23.793361823</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13806</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.733291745,-23.793199843</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13807</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.733254194,-23.792679543</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13809</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.735759377,-23.79353362</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13812</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.734930575,-23.792188692</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13814</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.735426784,-23.792090521</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13815</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.73612684,-23.792367853</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13819</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736204624,-23.792848886</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13820</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736105382,-23.793629335</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13821</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736751795,-23.793302921</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13822</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.73751086,-23.792651933</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13823</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.738208234,-23.792655001</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13827</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.739519835,-23.792618187</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13829</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.739876568,-23.793207206</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13833</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.741067469,-23.793241565</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13834</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.74082607,-23.793648969</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13804</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.731997579,-23.793128057</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13796</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.734917164,-23.794138587</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13803</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.732862592,-23.793456311</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13811</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.735573464,-23.792809707</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13808</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.73402667,-23.792562966</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13830</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740313768,-23.792852568</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13826</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.738830507,-23.792707153</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO Fibra Azul</name>
+                <id>13798</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.734203696,-23.793862487</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13816</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.73674643,-23.792628004</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13817</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736937251,-23.792183377</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13824</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.738544852,-23.79228993</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO Fibra Branca</name>
+                <id>13866</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737038791,-23.809831173</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>13839</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740142107,-23.794158221</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO Fibra Verde </name>
+                <id>13851</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.735493839,-23.809389466</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO Fibra Verde</name>
+                <id>13848</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736427248,-23.809514616</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO Fibra amarela</name>
+                <id>13862</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.735467017,-23.806459434</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14338</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.738806367,-23.791625438</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14340</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.739830971,-23.791983761</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14342</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740002632,-23.791473273</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14347</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.739809513,-23.791026594</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14348</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740973592,-23.790874429</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14349</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740131378,-23.792273364</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14353</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.741483212,-23.792170285</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14371</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.743140817,-23.794214668</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14343</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.741123796,-23.791404553</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14355</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740936041,-23.794815951</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14356</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.741971374,-23.79352503</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14357</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.741134524,-23.792753171</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14358</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.74182117,-23.792960555</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14360</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.74269557,-23.7939717</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14361</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.742540002,-23.794364376</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14344</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.73804462,-23.792057389</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14352</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737465262,-23.792278272</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO BRANCA</name>
+                <id>14362</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.742172539,-23.794603662</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14351</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736789346,-23.791850003</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14365</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.743194461,-23.797027177</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14366</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.742180586,-23.796190302</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14367</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.742679477,-23.796580517</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14368</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.743787229,-23.796762126</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14369</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.744111776,-23.795657743</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14372</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.743049622,-23.795618476</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14373</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.743033528,-23.7949902</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14370</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.743913293,-23.79474846</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14391</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.746804714,-23.792040209</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14377</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.74610734,-23.793939795</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14379</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.746692061,-23.793394955</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14376</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.745238304,-23.794700603</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14380</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.742287874,-23.790763986</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14381</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.743709445,-23.790066966</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14382</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.741998196,-23.791333379</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14383</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO FIBERSUL</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.742910147,-23.791392282</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14384</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.742132306,-23.791907679</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14385</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.742727757,-23.792197282</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14386</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.742132306,-23.792540878</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14387</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.742840409,-23.792904107</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14388</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.743559241,-23.793306603</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14389</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.743446589,-23.791831596</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14390</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.743822098,-23.792131017</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14392</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.743470728,-23.792648865</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14393</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.744197607,-23.791441367</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14394</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.74490571,-23.790881792</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14395</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.746343374,-23.789531928</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14397</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.744809151,-23.791505178</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14396</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.746134162,-23.790695266</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14399</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.743854284,-23.792364171</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14398</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.746021509,-23.791853685</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14400</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.745254397,-23.793625653</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14401</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.744755507,-23.793262426</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14402</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.744219065,-23.792732309</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14403</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.744776964,-23.792810845</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14406</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.747292876,-23.792742126</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14407</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.747239232,-23.792050026</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14408</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.744846702,-23.792064752</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14409</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.745903492,-23.792516335</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14410</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.745560169,-23.792138379</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14411</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.744508743,-23.792192373</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14404</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.745259762,-23.792589963</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>1</name>
+                <id>14405</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.746681333,-23.792324903</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>cto</name>
+                <id>15356</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO FIBERSUL</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.739913823,-23.810209726</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>cto de passagem, sem. splitter</name>
+                <id>15410</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO FIBERSUL</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.739115204,-23.806066269</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO fibra branca</name>
+                <id>13655</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.728383303,-23.800951334</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>drop</name>
+                <id>27058</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-47.38450977,-22.550495096</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO </name>
+                <id>26712</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-47.378525357,-22.565085077</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO (verde)</name>
+                <id>13673</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.726929545,-23.800901025</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO</name>
+                <id>41922</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737297255,-23.813155138</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO</name>
+                <id>41921</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737183161,-23.813976458</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO</name>
+                <id>41880</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.739474206,-23.813366027</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO</name>
+                <id>41923</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737441947,-23.812129659</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO</name>
+                <id>41883</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736687993,-23.81123689</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO</name>
+                <id>41888</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.739219193,-23.810851613</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO</name>
+                <id>41993</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.738112061,-23.809530978</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO</name>
+                <id>41889</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.7364306,-23.809659244</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO</name>
+                <id>41890</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740073999,-23.810867869</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO</name>
+                <id>42054</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.73819726,-23.806751499</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>45 CTO Fibra Azul sinal -19</name>
+                <id>13865</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736665964,-23.81083728</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO 97 Fibra Amarela -19</name>
+                <id>13847</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736360192,-23.810007856</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>cto sn fibra verde</name>
+                <id>15446</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO FIBERSUL</model>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737790959,-23.811498607</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO</name>
+                <id>43139</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                    <splitters>
+                        <name>CTO</name>
+                        <modelName>SPLITTER 1x8</modelName>
+                        <type>S18 </type>
+                    </splitters>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737631968,-23.810914877</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO</name>
+                <id>43143</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                    <splitters>
+                        <name>CTO</name>
+                        <modelName>SPLITTER 1x8</modelName>
+                        <type>S18 </type>
+                    </splitters>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736275493,-23.811927573</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO</name>
+                <id>43138</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                    <splitters>
+                        <name>CTO</name>
+                        <modelName>SPLITTER 1x8</modelName>
+                        <type>S18 </type>
+                    </splitters>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736164025,-23.813769778</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO</name>
+                <id>43142</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                    <splitters>
+                        <name>CTO</name>
+                        <modelName>SPLITTER 1x8</modelName>
+                        <type>S18 </type>
+                    </splitters>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736016408,-23.812720505</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO</name>
+                <id>43140</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                    <splitters>
+                        <name>CTO</name>
+                        <modelName>SPLITTER 1x8</modelName>
+                        <type>S18 </type>
+                    </splitters>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.737155649,-23.811719114</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO</name>
+                <id>43141</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                    <splitters>
+                        <name>CTO</name>
+                        <modelName>SPLITTER 1x8</modelName>
+                        <type>S18 </type>
+                    </splitters>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.736870964,-23.813231236</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CTO</name>
+                <id>43144</id>
+                <type>O</type>
+                <extra>
+                    <model>CTO THINK </model>
+                    <splitters>
+                        <name>CTO</name>
+                        <modelName>SPLITTER 1x8</modelName>
+                        <type>S18 </type>
+                    </splitters>
+                </extra>
+                <color>ff00ffff</color>
+                <Point>
+                    <coordinates>-46.740380903,-23.813096507</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
