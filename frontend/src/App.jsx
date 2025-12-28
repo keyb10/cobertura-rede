@@ -4,6 +4,7 @@ import MapResult from './components/MapResult';
 import * as toGeoJSON from 'togeojson';
 import JSZip from 'jszip';
 import * as turf from '@turf/turf';
+import './App.css'; // Add missing CSS import
 
 function App() {
   const [files, setFiles] = useState([]);
@@ -131,10 +132,14 @@ function App() {
       try {
         setUploading(true);
         // Use relative path './maps.json' to respect the base URL (e.g. /cobertura-rede/)
-        const manifestRes = await fetch('./maps.json');
-        if (!manifestRes.ok) return; // No manifest, skip
+        // Add timestamp to prevent caching issues
+        console.log("Fetching maps.json...");
+        const manifestRes = await fetch(`./maps.json?v=${new Date().getTime()}`);
+        if (!manifestRes.ok) throw new Error(`Failed to load manifest: ${manifestRes.status}`);
 
         const mapUrls = await manifestRes.json();
+        console.log("Maps to load:", mapUrls);
+
         const loadedFiles = [];
         const allFeatures = [];
 
@@ -142,7 +147,14 @@ function App() {
           // Prepend './' to map URLs if they don't have it, to ensure relative fetching
           const safeUrl = url.startsWith('http') || url.startsWith('/') ? url : `./${url}`;
 
-          const res = await fetch(safeUrl);
+          console.log(`Fetching map: ${safeUrl}`);
+          // Also add cache busting for individual KML files just in case
+          const res = await fetch(`${safeUrl}?v=${new Date().getTime()}`);
+          if (!res.ok) {
+            console.error(`Failed to fetch ${safeUrl}: ${res.status}`);
+            continue;
+          }
+
           const blob = await res.blob();
           const filename = url.split('/').pop();
           const file = new File([blob], filename, { type: 'application/vnd.google-earth.kml+xml' });
@@ -316,52 +328,24 @@ function App() {
     <div style={{ width: '100vw', height: '100vh', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
 
       {/* Top Search Bar */}
-      <div style={{
-        background: 'rgba(15, 23, 42, 0.95)',
-        backdropFilter: 'blur(10px)',
-        padding: '1.25rem 2rem',
-        borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
-        zIndex: 1000,
-        flexShrink: 0,
-        flexDirection: 'column'
-      }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '2rem', marginBottom: '0.75rem' }}>
-          <h1 style={{ margin: 0, fontSize: '1.5rem', color: 'var(--accent-primary)', whiteSpace: 'nowrap' }}>
+      <div className="app-header">
+        <div className="header-content">
+          <h1 className="app-title">
             Network Coverage
           </h1>
 
-          <form onSubmit={handleCheck} style={{ flex: 1, position: 'relative', maxWidth: '600px' }}>
+          <form onSubmit={handleCheck} className="search-form">
             <input
               type="text"
               placeholder="Enter address to check coverage..."
               value={address}
               onChange={(e) => setAddress(e.target.value)}
               disabled={files.length === 0 || uploading}
-              style={{
-                width: '100%',
-                padding: '0.75rem 1rem',
-                fontSize: '1rem',
-                border: '1px solid rgba(255, 255, 255, 0.2)',
-                borderRadius: '0.5rem',
-                background: 'rgba(255, 255, 255, 0.05)',
-                color: 'white'
-              }}
+              className="search-input"
             />
             <button
               type="submit"
-              style={{
-                position: 'absolute',
-                right: '0',
-                top: '0',
-                bottom: '0',
-                padding: '0 1.5rem',
-                background: 'var(--accent-primary)',
-                border: 'none',
-                borderRadius: '0 0.5rem 0.5rem 0',
-                cursor: 'pointer',
-                fontWeight: '600',
-                fontSize: '0.9rem'
-              }}
+              className="search-button"
               disabled={files.length === 0 || uploading || checking || !address}
             >
               {checking ? <Loader2 className="animate-spin" size={16} /> : 'OK'}
@@ -370,39 +354,16 @@ function App() {
         </div>
 
         {/* Status Indicator - Below search */}
-        <div style={{
-          display: 'flex',
-          alignItems: 'center',
-          gap: '0.5rem',
-          fontSize: '0.75rem',
-          opacity: 0.6,
-          paddingLeft: '0.5rem'
-        }}>
+        <div className="status-indicator">
           <CheckCircle size={14} color="var(--success)" />
           <span>{files.length} maps loaded</span>
         </div>
       </div>
 
       {/* Fullscreen Map */}
-      <div style={{
-        flex: 1,
-        position: 'relative',
-        display: 'flex',
-        alignItems: 'flex-start',
-        justifyContent: 'center',
-        padding: '3rem 2rem 2rem 2rem',
-        background: 'linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%)'
-      }}>
-        <div style={{
-          width: '100%',
-          height: '100%',
-          maxWidth: '1000px',
-          maxHeight: '550px',
-          borderRadius: '1rem',
-          overflow: 'hidden',
-          boxShadow: '0 20px 60px rgba(0, 0, 0, 0.5)',
-          position: 'relative'
-        }}>
+      {/* Map Section */}
+      <div className="map-section">
+        <div className="map-container">
           {result ? (
             <MapResult
               coordinates={result.coordinates}
@@ -410,16 +371,7 @@ function App() {
               allFeatures={geoJsonFeatures}
             />
           ) : (
-            <div style={{
-              height: '100%',
-              width: '100%',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              background: 'linear-gradient(135deg, #2563eb 0%, #1e40af 100%)',
-              fontSize: '1.2rem',
-              color: 'rgba(255, 255, 255, 0.6)'
-            }}>
+            <div className="map-placeholder">
               {uploading ? (
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
                   <Loader2 className="animate-spin" size={48} />
@@ -431,7 +383,6 @@ function App() {
             </div>
           )}
         </div>
-
         {/* Floating Result Card */}
         {result && (
           <div style={{
@@ -495,6 +446,7 @@ function App() {
           </div>
         )}
       </div>
+
 
     </div>
   );

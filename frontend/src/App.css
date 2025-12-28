@@ -1,8 +1,12 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  max-width: none;
+  /* Override default constraint */
+  text-align: left;
+  /* Reset text alignment */
 }
 
 .logo {
@@ -11,9 +15,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +28,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -39,4 +46,187 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* --- New Search Bar Styles --- */
+
+.app-header {
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 1.25rem 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 1000;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  /* Stack Title and Search */
+  align-items: center;
+  /* Center horizontally */
+  gap: 1.5rem;
+  /* Space between title and search */
+  margin-bottom: 0.75rem;
+  width: 100%;
+}
+
+.app-title {
+  margin: 0;
+  font-size: 2rem;
+  /* Slighly larger title */
+  color: var(--accent-primary, #646cff);
+  text-align: center;
+}
+
+.search-form {
+  position: relative;
+  width: 50%;
+  /* User requested 50% width */
+  min-width: 320px;
+  /* Prevent it from being too small on mobile */
+  /* max-width: 600px; Removed to respect the 50% request more strictly, or we can keep it. */
+  display: flex;
+  align-items: center;
+  /* Vertically center items */
+  border-radius: 0.5rem;
+  overflow: hidden;
+  /* Ensure rounded corners are respected */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.search-input {
+  flex: 1;
+  /* Take remaining space */
+  width: auto;
+  /* Fix: Do not force 100% */
+  min-width: 0;
+  /* Fix flex overflow issues */
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: none;
+  /* Border handled by container */
+  background: transparent;
+  color: white;
+  outline: none;
+}
+
+.search-input:focus {
+  /* No separate border on focus to keep clean look, or style container */
+}
+
+/* Optional: Focus ring on container if needed (simulated) */
+.search-form:focus-within {
+  border-color: var(--accent-primary, #646cff);
+  box-shadow: 0 0 0 2px rgba(100, 108, 255, 0.2);
+}
+
+.search-button {
+  /* display: flex is unnecessary due to parent flex, but harmless */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.5rem;
+  height: 100%;
+  /* Fill container height */
+  min-height: 48px;
+  /* Minimum touch target */
+  background: var(--accent-primary, #646cff);
+  border: none;
+  border-radius: 0;
+  /* Container handles radius */
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: white;
+  white-space: nowrap;
+  /* Prevent text wrapping */
+}
+
+.search-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.status-indicator {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  opacity: 0.6;
+  padding-left: 0.5rem;
+}
+
+/* --- Map Layout --- */
+
+.map-section {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* Center Vertically */
+  justify-content: center;
+  /* Center Horizontally */
+  padding: 1rem;
+  background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%);
+  min-height: 0;
+  /* Crucial for nested flex scrolling/sizing */
+}
+
+.map-container {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  /* Increased max-width */
+  /* Remove fixed max-height to let it fill screen */
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  position: relative;
+  display: flex;
+  /* Ensure contents fill */
+}
+
+.map-placeholder {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.6);
+  min-height: 300px;
+  /* Ensure visibility even if empty */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 640px) {
+  .app-header {
+    padding: 1rem;
+  }
+
+  .header-content {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+
+  .app-title {
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  .search-form {
+    width: 100%;
+    /* Full width on mobile */
+    min-width: unset;
+  }
+
+  .map-section {
+    padding: 0.5rem;
+  }
 }
